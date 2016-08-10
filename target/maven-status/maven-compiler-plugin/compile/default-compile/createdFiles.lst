@@ -1,0 +1,10 @@
+blogue\springboot\service\BlogueDao.class
+blogue\springboot\controller\BlogueController.class
+blogue\springboot\domain\Blogue.class
+blogue\springboot\App.class
+blogue\springboot\config\SecurityConfig.class
+blogue\springboot\service\UserDao.class
+blogue\springboot\controller\UserController.class
+blogue\springboot\domain\User.class
+blogue\springboot\domain\Permission.class
+blogue\springboot\domain\Role.class

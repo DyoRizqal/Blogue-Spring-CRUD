@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link href="/lib/css/material-icons.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="/lib/css/materialize.css"  media="screen,projection"/>
+<script src="/lib/js/jquery.min.js"></script>
+<script src="/lib/js/materialize.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="grey lighten-4">
+    <div class="login-cont">
+        <div class="row">
+            <div class="col s4" style="margin-left:450px">
+                <div class="card-panel">
+                    <div class="row">
+                        <h4 class="light center">Login</h4>
+                        <form action="/login" method="post" class="col s12">
+                            <div class="input-field col s12">
+                              <input placeholder="Username" type="text" name="username" class="validate">
+                            </div>
+                            <div class="input-field col s12">
+                              <input placeholder="Password" type="password" name="password" class="validate">
+                            </div>
+                            <div class="input-field col s12">
+                                <button type="submit" style="width: 100%" class="btn waves-effect waves-light">Login</button>
+                            </div>
+                        </form>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
